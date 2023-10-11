@@ -18,9 +18,7 @@ const Problem1 = () => {
     e.preventDefault();
     setData([...data, formValue]);
   };
-  //   console.log("object", data);
   const filterData = data.filter((item) => item.status.toLowerCase() === show);
-  console.log("filterData", filterData);
   return (
     <div className="container">
       <div className="row justify-content-center mt-5">
